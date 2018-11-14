@@ -81,7 +81,6 @@ function preload()
 	drinkSound = loadSound("sounds/drinkBad.mp3");
 
 	//setting my canvas up so that it is centered
-	theCanvas.parent("#gameContainer");
 
 }
 
@@ -101,9 +100,6 @@ function setup()
 
 
 	//hammerDownAngle = 90;
-
-	theCanvas.parent("#gameContainer");
-
 
 	//start sound/music
 	startSound.loop();
